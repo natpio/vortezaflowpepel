@@ -235,7 +235,7 @@ def apply_vorteza_theme():
 # =========================================================
 # GŁÓWNA APLIKACJA
 # =========================================================
-st.set_page_config(page_title="VORTEZA FLOW | SQM SOLUTIONS", layout="wide")
+st.set_page_config(page_title="VORTEZA FLOW | VORTEZA SYSTEMS 2026", layout="wide")
 apply_vorteza_theme()
 
 if check_password():
@@ -250,7 +250,7 @@ if check_password():
 
     with col_title:
         st.markdown("<h1 style='margin-bottom:0;'>VORTEZA FLOW</h1>", unsafe_allow_html=True)
-        st.markdown("<p style='letter-spacing:3px; color:#666;'>SQM MULTIMEDIA SOLUTIONS | LOGISTICS INTERFACE</p>", unsafe_allow_html=True)
+        st.markdown("<p style='letter-spacing:3px; color:#666;'>VORTEZA SYSTEMS | LOGISTICS INTERFACE</p>", unsafe_allow_html=True)
     
     with col_logout:
         st.markdown("<br>", unsafe_allow_html=True)
